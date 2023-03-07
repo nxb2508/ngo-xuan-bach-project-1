@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+  --font: 'DM Sans', sans-serif;
+  --color-main: #232323;
+  --color-main-2: #efefef;
+
+  --color-font-1: #777777;
+  --color-font-2:#bbbbbb;
+
+  --color-hover-1: #565656;
+  --color-hover-2: #f7d9c4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font);
+  color: #bbbbbb;
+  background-color: var(--color-main-2);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 480;
+    padding: 0 10px;
+  }
+}
